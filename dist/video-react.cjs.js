@@ -4993,6 +4993,7 @@ var Player =
       });
 
       var children = this.getChildren(props);
+      console.log(children);
       return React__default.createElement(
         'div',
         {

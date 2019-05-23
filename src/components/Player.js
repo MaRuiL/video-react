@@ -391,7 +391,6 @@ export default class Player extends Component {
       video: this.video ? this.video.video : null
     };
     const children = this.getChildren(props);
-
     return (
       <div
         className={classNames(

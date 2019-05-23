@@ -10,7 +10,7 @@
     "start": "webpack-dev-server --watch",
     "build-docs": "cross-env WEBPACK_BUILD=production webpack --progress --colors",
     "build": "rollup -c",
-    "prebuild": "cross-env BABEL_ENV=lib-dir babel src --out-dir lib --ignore src/__tests__/",
+    "prebuild": "cross-env BABEL_ENV=lib-dir babel src --out-dir lib --ignore src/__tests__/ --watch",
     "create-release": "npm test && sh ./scripts/release",
     "create-major": "sh ./scripts/release major",
     "create-minor": "sh ./scripts/release minor",
